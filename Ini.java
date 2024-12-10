@@ -29,6 +29,7 @@ public class Ini {
                 System.out.print("Jumlah SKS (1-3) : ");
                 matkul[i][2] = sc.next();
                 if (matkul[i][2].equals("1") || matkul[i][2].equals("2") || matkul[i][2].equals("3")) {
+                    System.out.println("Data berhasil ditambahkan.");
                     totalSKS[i] += Integer.valueOf(matkul[i][2]);
                 } else {
                     System.out.println("Jumlah SKS tidak valid!");
