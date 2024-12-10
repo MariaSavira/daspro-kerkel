@@ -12,14 +12,14 @@ public class Ini {
         int i = 0;
         
         boolean tambahMahasiswa = true;
-        while (tambahMahasiswa) { // Loop untuk mahasiswa
+        while (tambahMahasiswa) { 
             System.out.print("\nNIM : ");
             mahasiswa[i][0] = sc.next();
             System.out.print("Nama : ");
             mahasiswa[i][1] = sc.next();
 
             boolean tambahMataKuliah = true;
-            while (tambahMataKuliah) { // Loop untuk mata kuliah
+            while (tambahMataKuliah) { 
                 System.out.print("\nKode Mata Kuliah : ");
                 matkul[i][0] = sc.next();
                 System.out.print("Nama Mata Kuliah : ");
@@ -67,9 +67,9 @@ public class Ini {
 
         if (menu == 1) {
             tambahKrs();
-            // } else if (menu == 2) {
+            
 
-            // }
+            
         }
     }
 }
